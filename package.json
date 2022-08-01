@@ -10,7 +10,6 @@
     "format": "prettier \"**/*.+(ts|js|tsx)\" --write"
   },
   "dependencies": {
-    "@plataforma-ted10523/components-web": "^0.2.19",
     "axios": "^0.27.2",
     "next": "12.2.2",
     "react": "18.2.0",
