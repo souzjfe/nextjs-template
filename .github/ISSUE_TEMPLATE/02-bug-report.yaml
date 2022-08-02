@@ -41,16 +41,22 @@ body:
     attributes:
       label: Sistema operacional
       placeholder: Linux - Ubuntu
+    validations:
+      required: true
   - type: input
     id: lauhcer
     attributes:
       label: Navegador 
       placeholder: Opera
+    validations:
+      required: true
   - type: input
     id: version
     attributes:
       label: Versão  
       placeholder: "22"
+    validations:
+      required: true
   - type: textarea
     id: screen-shot
     attributes:
