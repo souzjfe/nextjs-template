@@ -53,7 +53,7 @@ body:
       label: Versão  
       placeholder: "22"
   - type: textarea
-    id: repro-code
+    id: screen-shot
     attributes:
       label: Capturas de tela
       description: Se aplicável, adicione capturas de tela para ajudar a explicar seu problema
@@ -61,7 +61,7 @@ body:
     validations:
       required: false
   - type: textarea
-    id: eslint-config
+    id: aditional-context
     attributes:
       label: Contexto adicional
       description: Adicione qualquer outro contexto sobre o problema aqui
