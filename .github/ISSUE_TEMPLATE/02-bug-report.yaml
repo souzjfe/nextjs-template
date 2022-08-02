@@ -51,7 +51,7 @@ body:
     id: version
     attributes:
       label: Versão  
-      placeholder: 22
+      placeholder: "22"
   - type: textarea
     id: repro-code
     attributes:
