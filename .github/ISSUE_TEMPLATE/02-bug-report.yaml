@@ -1,4 +1,4 @@
-name: "🐛 Report a Bug With a Rule"
+name: "🐛 Relatório de bug"
 description: "Relatar um bug que você encontrou em uma funcionalidade do site"
 title: "Bug: [nome da funcionalidade] <pequena descrição sobre>"
 labels:
@@ -8,8 +8,7 @@ body:
   - type: checkboxes
     id: sanity-checks
     attributes:
-      label: Before You File a Bug Report Please Confirm You Have Done The Following...
-      description: If any of these required steps are not taken, we may not be able to review your issue. Help us to help you!
+      label: Confirme os checkbox abaixo para requisitar a solução
       options:
         - label: Eu reproduzi esse bug mais que uma vez.
           required: true
@@ -27,7 +26,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: steps-to-reproduce
+    id: expected-behavior
     attributes:
       label: Comportamento esperado
       description: |
